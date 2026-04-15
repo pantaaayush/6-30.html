@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <Title> Practice4
+    </Title>
+    <meta charset = "UTF-8">
+    </head>
+    <body>
+        <form action="https://google.com" target="_blank">
+            <input type="text" name="q">
+            <button>google Search</button>
+            </form>
+            <hr>
+            <form action="https://www.youtube.com/results" target="_blank" method="get">
+                <input type="text" name="search_query">
+                  <button>google Search</button>
+            </form>
+            <hr>
+            <form>
+                <input type="text" name="Courses" list="subject">
+                <datalist id="subject">
+                    <option>Web Design</option>
+                    <option>Figma</option>
+                    <option>Mern</option>
+                    <option>Java</option>
+                </datalist>
+                <button>Search</button>
+                <hr>
+                Food
+                <select name="food" multiple size="6">
+                    <optgroup label="Veg">
+                        <option>Potato</option>
+                        <option>Tomato</option>
+                        <option>Mango</option>
+                    </optgroup>
+                    <optgroup label="Fruits">
+                        <option>Apple</option>
+                        <option>Litchi</option>
+                    </optgroup>
+                </select>
+                <hr>
+                color: <input type="color" name="color">
+                <hr>
+                date : <input type="date" name="date">
+                <hr>
+                time : <input type="time" name="time">
+                <hr>
+                date & time : <input type="datetime-local" name="datetime">
+                <hr>
+                URL : <input type="url" name="domain">
+                <hr>
+                Range : <input type="range" name="price" min="0" max="100">
+                <hr>
+                Check box : <input type="checkbox" name="course1" value="Mern"> Mern
+                <input type="checkbox" name="course1" value="webdesign">Frontend
+                <hr>
+                Image : <input type="file" name="photo" accept="image/#">
+                <hr>
+                Place holder : <input type="text" name="n1" placeholder="Enter your full name">
+                <hr>
+                required <input type="text" name="n2" required>
+                <hr>
+                value and readonly <input type="text" name="n3" value="Aayush" readonly>
+                <hr>
+                <input type="image" name="Okay" src="cow.jpg" width="40">
+                <input type="reset">
+                <button>Send</button>
+            </form>
+    </body>
+</html>
